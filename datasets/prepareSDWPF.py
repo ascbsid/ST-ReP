@@ -14,7 +14,7 @@ def handle_exceptions(df):
     df['Patv_clear'] = df['Patv'].where(~mask, 0)
     return mask
 
-df = pd.read_csv('/home/qi/Datasets/SDWPF/wtbdata_245days.csv')
+df = pd.read_csv('./SDWPF/wtbdata_245days.csv')
 pa_mask = handle_exceptions(df)
 
 
