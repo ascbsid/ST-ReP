@@ -31,7 +31,6 @@ class StandardScaler():
     def inverse_transform(self, data):
         return (data * self.std) + self.mean
 
-# /home/qi/Projects/LargeST-main/data/ca/ca_his_2019.h5
 class Dataset_CA(Dataset):
     def __init__(self, root_path, flag='train', size=None,
                  features='M', data_path='ETTh1.csv',
