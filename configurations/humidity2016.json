@@ -1,6 +1,6 @@
 {
     "data_config": {
-        "root_path":"/home/qi/Datasets/weatherbench/humidity/",
+        "root_path":"./datasets/humidity2016/",
         "data_path":"humidity2016.npz",
         "features":"M",
         "dataset_name": "humidity2016",

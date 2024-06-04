@@ -1,6 +1,6 @@
 {
     "data_config": {
-        "root_path":"/home/qi/Projects/LargeST-main/data/ca/",
+        "root_path":"./datasets/ca/",
         "data_path":"ca_his_2019.h5",
         "features":"M",
         "dataset_name": "ca",

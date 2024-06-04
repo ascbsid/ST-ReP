@@ -1,6 +1,6 @@
 {
     "data_config": {
-        "root_path":"/home/qi/Datasets/weatherbench/temperature/",
+        "root_path":"./datasets/temperature2016/",
         "data_path":"temperature2016.npz",
         "features":"M",
         "dataset_name": "temperature2016",

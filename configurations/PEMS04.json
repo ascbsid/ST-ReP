@@ -1,6 +1,6 @@
 {
     "data_config": {
-        "root_path":"/home/qi/Datasets/PEMS04/",
+        "root_path":"./datasets/PEMS04/",
         "data_path":"PEMS04.npz",
         "features":"M",
         "dataset_name": "PEMS04",

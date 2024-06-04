@@ -1,6 +1,6 @@
 {
     "data_config": {
-        "root_path":"/home/qi/Datasets/SDWPF/",
+        "root_path":"./datasets/SDWPF/",
         "data_path":"SDWPF.npz",
         "features":"M",
         "dataset_name": "SDWPF",
