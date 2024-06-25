@@ -18,7 +18,10 @@ rdata = xr.open_mfdataset(raw_data_path, combine='by_coords')
 
 
 raw_data = rdata.__getattr__(attr)
+if len(raw_data.shape) == 4: # when there are different level, we choose the 13-th level which is sea level
+    raw_data = raw_data[:,-1,...]
 print(raw_data.shape)
+
 start_date = '2016-01-01'
 end_date = '2017-01-01'
 time = rdata.time.values
